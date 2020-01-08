@@ -1,4 +1,4 @@
-DROP DATABASE IF EXISTS burgers_db;
-CREATE DATABASE IF NOT EXISTS burgers_db;
+DROP DATABASE IF EXISTS burgerWk15_db;
+CREATE DATABASE IF NOT EXISTS burgersWk15_db;
 
-USE burgersNew_db;
+USE burgersWk15_db;
