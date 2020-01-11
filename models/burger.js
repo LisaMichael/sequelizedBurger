@@ -20,15 +20,18 @@
 // }
 
 
-module.exports = (sequelize, DataTypes) => {
-    var Burger = sequelize.define('Burger', {
-      burger_name: DataTypes.STRING,
-      devoured:{
-         type:DataTypes.BOOLEAN,
-         defaultValue: false
-      }
-    });
-    return Burger;
-  };
+
+module.exports = function (sequelize, DataTypes) {
+  var burger = sequelize.define('burger', {
+    burger_name: DataTypes.STRING,
+    
+    // devoured:{
+    //   type: DataTypes.BOOLEAN,
+    // defaultValue: false
+    // }
   
-module.exports = burger; 
+  });
+  return burger;
+};
+
+// module.exports = burger; 
